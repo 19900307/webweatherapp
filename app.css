@@ -1,0 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#dataBoard {
+  border-left: 6px solid #F09020;
+  margin: auto;
+  background-color: rgba(225, 225, 225, 0.8);
+  display: block;
+  border-radius: 5px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+}
+
+#dataBox {
+  overflow: hidden;
+}
+
+#searchBox {
+  display: block;
+  background-color: white;
+  min-height: 50px;
+  width: 100%;
+  overflow: hidden;
+  height: 50px;
+  padding-left:10px;
+}
+
+button {
+  color: black;
+  display: block;
+  background: #F09020;
+  border: 2px solid white;
+  float: right;
+  width: 30%;
+  min-height: 50px;
+}
+
+button:hover {
+  opacity: 0.5;
+
+  border-color:#F09020;
+}
+
+input {
+  display: block;
+  float: left;
+  background: transparent;
+  border-style: none;
+  min-height: 50px;
+  width: 69%;
+}
+
+#mainInfo {
+  background-color: #C9C9C9;
+  padding: 10px;
+  text-align: right;
+}
+#secondInfo {
+  padding: 10px;
+  text-align: left;
+}
+img {
+  border-style: none;
+}
